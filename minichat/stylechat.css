@@ -1,0 +1,65 @@
+@font-face {
+    font-family: "lifecraft";
+    src: url("LifeCraft_Font.ttf") format("woff2"),
+           url("LifeCraft_Font.ttf") format("woff");
+    font-family: "friz";
+    src: url("Friz Quadrata Std Medium.otf") format("woff2"),
+            url("Friz Quadrata Std Medium.otf") format("woff2"),
+   }
+body{
+    text-align: center; 
+    background-repeat: no-repeat;
+  /*  background-color: #FFF4E9; */
+    font-family: 'lifecraft', cursive;
+    font-size: 2.5rem;
+    background-image: url("gifwow.gif");
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.bouton{
+    border-radius: 22%;
+    border-style: none;
+    background-color: #252323;
+    font-family: 'Medula One', cursive;
+    color: rgb(255, 216, 183);
+    font-size: 2rem;
+}
+.main_container{
+    font-family: 'friz';
+    color: rgb(255, 125, 0);
+}
+h1{
+    color: rgb(255, 216, 183);
+    margin-bottom: 0;
+}
+html{
+
+    color: rgb(255, 125, 0);
+  /*  background-image: url("https://i.imgur.com/9baf8LY.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;.
+    background-attachment: fixed; */
+    
+}
+.message{
+    background-color: rgba(0, 0, 0, 0.719);
+    border-style: inset;
+    width: 200px;
+    height: 50px;
+    color: white;
+}
+.pseudo{
+    background-color: rgba(0, 0, 0, 0.719);
+    border-style: ridge black;
+    color: white;
+}
+img{
+    width: 500px;
+}
+.texte{
+    background-color: rgba(0, 0, 0, 0.719);
+    border-radius: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+    border: outset #2D0C08;
+}
